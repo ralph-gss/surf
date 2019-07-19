@@ -1,0 +1,87 @@
+/* CSS Document */
+* {
+  margin: 0px;
+}
+
+/*Paragraph Properties*/
+p {
+  padding: 8px 0px;
+}
+
+/*Div Properties*/
+div {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*Table Properties*/
+table, td, th {
+  margin: 0px;
+  border-collapse: collapse;
+  padding: 0;
+}
+
+/*Image Properties*/
+img {
+  border: none;
+}
+
+/*List Properties*/
+ul {
+  margin: 0;
+  padding: 0px 0px;
+  list-style: none;
+}
+
+li {
+  margin: 0;
+  padding: 0px 0px;
+  list-style: none;
+}
+
+/*Link Properties*/
+a {
+  color: #36a8ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #36a8ff;
+}
+
+@font-face {
+  font-family: "LeagueSpartanBold";
+  src: url("../fonts/LeagueSpartan-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PlayfairDisplayBold";
+  src: url("../fonts/PlayfairDisplay-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PlayfairDisplayReg";
+  src: url("../fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PoppinsLight";
+  src: url("../fonts/Poppins-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+html, body {
+  font-family: Helvetica, sans-serif;
+  color: #000;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=default.css.map */

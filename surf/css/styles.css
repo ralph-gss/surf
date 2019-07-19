@@ -1,0 +1,672 @@
+.background1 {
+  background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url(../images/bg_img2.jpg);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+.background2 {
+  background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url(../images/bg_img3.jpg);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+.globalLine {
+  background: linear-gradient(90deg, #eee 1px, transparent 1px) 1px 0, #fff0;
+  background-size: 287px 1px;
+  background-position: 100px 0;
+}
+
+.header {
+  width: 100%;
+  padding: 40px 100px 0;
+  display: flex;
+  flex-direction: row;
+}
+.header__logo {
+  padding-right: 115px;
+}
+.header__navbar {
+  font-family: LeagueSpartanBold;
+  font-size: 9px;
+  color: #0B0C11;
+  align-self: flex-end;
+  padding-bottom: 10px;
+}
+.header__navbar ul {
+  display: flex;
+  flex-direction: row;
+}
+.header__navbar ul li {
+  padding-right: 20px;
+  letter-spacing: 4px;
+  cursor: pointer;
+}
+.header__navbar ul li:hover {
+  color: #5DA8EF;
+}
+
+.intro {
+  width: 100%;
+  padding: 40px 100px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+.intro__left {
+  position: absolute;
+  z-index: 2;
+}
+.intro__right {
+  z-index: 1;
+  text-align: right;
+}
+.intro__right img {
+  box-shadow: -12px 12px 40px 0px rgba(0, 0, 0, 0.28);
+}
+.intro__title1 {
+  font-family: LeagueSpartanBold;
+  color: #5DA8EF;
+  font-size: 9px;
+  letter-spacing: 5px;
+}
+.intro__title2 {
+  font-family: PlayfairDisplayBold;
+  color: #0B0C11;
+  font-size: 62px;
+}
+.intro__subtitle {
+  font-family: PoppinsLight;
+  color: #8F8F8F;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+}
+.intro__upper {
+  position: absolute;
+  transform: rotate(-90deg);
+  top: 160px;
+  right: -68px;
+  font-family: LeagueSpartanBold;
+  color: #8F8F8F;
+  font-size: 9px;
+  letter-spacing: 5px;
+}
+.intro__lower {
+  position: absolute;
+  right: 37px;
+  top: 565px;
+}
+.intro__lower li {
+  padding-top: 25px;
+}
+.intro__pagination {
+  display: flex;
+  flex-direction: row;
+}
+.intro__current {
+  color: #5DA8EF;
+}
+.intro__total {
+  color: #8F8F8F;
+}
+
+.quote {
+  width: 100%;
+  padding: 140px 100px 0;
+  text-align: center;
+}
+.quote__text {
+  font-family: PlayfairDisplayReg;
+  color: #333333;
+  font-size: 26px;
+  padding: 0 270px;
+}
+.quote__person {
+  font-family: LeagueSpartanBold;
+  color: #333333;
+  font-size: 9px;
+  letter-spacing: 5px;
+  padding-top: 20px;
+}
+.quote__line {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.quote__line hr {
+  border-color: #5DA8EF;
+  background: #5DA8EF;
+  border-width: 0;
+  width: 2px;
+  height: 80px;
+  margin: 50px 0;
+}
+
+.blog {
+  width: 100%;
+  padding: 40px 100px 0;
+}
+.blog__left {
+  position: absolute;
+  z-index: 1;
+}
+.blog__left__image {
+  width: 574px;
+}
+.blog__left__image img {
+  width: 100%;
+}
+.blog__left__text {
+  font-family: PoppinsLight;
+  color: #8F8F8F;
+  font-size: 14px;
+  width: 445px;
+  padding: 50px 0 0 111px;
+}
+.blog__left__link {
+  font-family: LeagueSpartanBold;
+  color: #0B0C11;
+  font-size: 9px;
+  padding: 50px 0 0 111px;
+  letter-spacing: 5px;
+}
+.blog__left__link a {
+  color: #0B0C11;
+  cursor: pointer;
+}
+.blog__left__link a:hover {
+  color: #5DA8EF;
+}
+.blog__left__link a:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 110px;
+  bottom: -10px;
+  height: 2px;
+  width: 96px;
+  background: #5DA8EF;
+  z-index: 2;
+}
+.blog__right {
+  z-index: 2;
+  padding-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+.blog__right__image {
+  width: 665px;
+  position: relative;
+  z-index: 1;
+}
+.blog__right__image img {
+  width: 100%;
+}
+.blog__right__image .playbutton {
+  width: auto;
+  position: absolute;
+  top: 272px;
+  left: 327px;
+  transform: translate(-50%, -50%);
+}
+
+.shop {
+  width: 100%;
+  padding: 140px 100px 0;
+  text-align: center;
+  position: relative;
+}
+.shop__title {
+  font-family: LeagueSpartanBold;
+  color: #5DA8EF;
+  font-size: 9px;
+  letter-spacing: 5px;
+}
+.shop__category {
+  font-family: PlayfairDisplayBold;
+  color: #0B0C11;
+  font-size: 42px;
+}
+.shop__list {
+  display: flex;
+  flex-direction: row;
+}
+.shop__arrow {
+  position: relative;
+}
+.shop__arrowleft {
+  position: absolute;
+  bottom: 170px;
+  left: -50px;
+  z-index: 2;
+  cursor: pointer;
+}
+.shop__arrowright {
+  position: absolute;
+  bottom: 170px;
+  right: -50px;
+  z-index: 2;
+  cursor: pointer;
+}
+.shop__image {
+  position: relative;
+  width: 220px;
+}
+.shop__image img {
+  position: relative;
+  width: 100%;
+  left: 0;
+  z-index: 2;
+}
+.shop__item {
+  position: relative;
+  flex-grow: 1;
+}
+.shop__itemBG {
+  height: 312px;
+  background: #ECECEC;
+  width: 220px;
+  position: absolute;
+  top: 168px;
+  z-index: 1;
+}
+.shop__text {
+  position: absolute;
+  padding-left: 190px;
+  top: 260px;
+  text-align: left;
+  line-height: 23px;
+  z-index: 2;
+}
+.shop__itemcategory {
+  font-family: PoppinsLight;
+  color: #8F8F8F;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.shop__itemname {
+  font-family: PlayfairDisplayReg;
+  color: #0B0C11;
+  font-size: 26px;
+}
+.shop__price {
+  font-family: PoppinsLight;
+  color: #CE60A8;
+  font-size: 20px;
+  padding: 25px 50px 0;
+}
+.shop__buytext {
+  font-family: LeagueSpartanBold;
+  color: #0B0C11;
+  font-size: 9px;
+  padding: 0 50px;
+  letter-spacing: 7px;
+}
+.shop__showall {
+  font-family: LeagueSpartanBold;
+  color: #0B0C11;
+  font-size: 9px;
+  padding: 50px 0 0;
+  letter-spacing: 5px;
+}
+.shop__showall a {
+  color: #0B0C11;
+  cursor: pointer;
+  position: relative;
+}
+.shop__showall a:hover {
+  color: #5DA8EF;
+}
+.shop__showall a:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0px;
+  bottom: -10px;
+  height: 2px;
+  width: 85px;
+  background: #5DA8EF;
+  z-index: 2;
+}
+
+.news {
+  width: 100%;
+  padding: 140px 100px 0;
+}
+
+.training {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.training__left {
+  flex-grow: 1;
+}
+.training__right {
+  position: relative;
+}
+.training__righttext {
+  font-family: LeagueSpartanBold;
+  color: #8F8F8F;
+  font-size: 9px;
+  letter-spacing: 5px;
+  position: absolute;
+  top: 45px;
+  right: -80px;
+  transform: rotate(-90deg);
+}
+.training__number {
+  font-family: LeagueSpartanBold;
+  color: #F9F9F9;
+  font-size: 130px;
+  padding-top: 15px;
+  position: absolute;
+  z-index: 1;
+}
+.training__name {
+  font-family: PlayfairDisplayBold;
+  color: #0B0C11;
+  font-size: 42px;
+  position: relative;
+  padding-top: 85px;
+  z-index: 2;
+}
+.training__name:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0px;
+  bottom: -10px;
+  height: 2px;
+  width: 23px;
+  background: #5DA8EF;
+  z-index: 2;
+}
+.training__description {
+  font-family: PoppinsLight;
+  color: #8F8F8F;
+  font-size: 14px;
+  position: relative;
+  padding-top: 55px;
+  width: 330px;
+  z-index: 2;
+}
+.training__link {
+  font-family: LeagueSpartanBold;
+  color: #0B0C11;
+  font-size: 9px;
+  letter-spacing: 5px;
+  padding-top: 55px;
+}
+.training__link a {
+  color: #0B0C11;
+  cursor: pointer;
+  position: relative;
+}
+.training__link a:hover {
+  color: #5DA8EF;
+}
+.training__link a:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0px;
+  bottom: -10px;
+  height: 2px;
+  width: 95px;
+  background: #5DA8EF;
+  z-index: 2;
+}
+
+.break {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 120px;
+}
+.break__right {
+  padding-left: 75px;
+  position: relative;
+}
+.break__left {
+  position: relative;
+}
+.break__lefttext {
+  font-family: LeagueSpartanBold;
+  color: #8F8F8F;
+  font-size: 9px;
+  letter-spacing: 5px;
+  position: absolute;
+  top: 45px;
+  left: -80px;
+  transform: rotate(-90deg);
+}
+.break__number {
+  font-family: LeagueSpartanBold;
+  color: #F9F9F9;
+  font-size: 130px;
+  padding-top: 15px;
+  position: absolute;
+  z-index: 1;
+}
+.break__name {
+  font-family: PlayfairDisplayBold;
+  color: #0B0C11;
+  font-size: 42px;
+  position: relative;
+  padding-top: 85px;
+  z-index: 2;
+}
+.break__name:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0px;
+  bottom: -10px;
+  height: 2px;
+  width: 23px;
+  background: #5DA8EF;
+  z-index: 2;
+}
+.break__description {
+  font-family: PoppinsLight;
+  color: #8F8F8F;
+  font-size: 14px;
+  position: relative;
+  padding-top: 55px;
+  width: 330px;
+  z-index: 2;
+}
+.break__link {
+  font-family: LeagueSpartanBold;
+  color: #0B0C11;
+  font-size: 9px;
+  letter-spacing: 5px;
+  padding-top: 55px;
+}
+.break__link a {
+  color: #0B0C11;
+  cursor: pointer;
+  position: relative;
+}
+.break__link a:hover {
+  color: #5DA8EF;
+}
+.break__link a:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0px;
+  bottom: -10px;
+  height: 2px;
+  width: 95px;
+  background: #5DA8EF;
+  z-index: 2;
+}
+
+.register {
+  width: 100%;
+  padding: 120px 100px 0;
+  text-align: center;
+}
+.register__line {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.register__line hr {
+  border-color: #5DA8EF;
+  background: #5DA8EF;
+  border-width: 0;
+  width: 2px;
+  height: 80px;
+  margin: 0 0 50px;
+}
+.register__title {
+  font-family: PlayfairDisplayBold;
+  color: #0B0C11;
+  font-size: 42px;
+}
+.register__description {
+  font-family: PoppinsLight;
+  color: #8F8F8F;
+  font-size: 14px;
+  padding: 30px 300px 0;
+}
+.register__email {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 40px;
+}
+.register__email form {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  height: 50px;
+}
+.register__email form input {
+  flex-grow: 2;
+  border: none;
+  background: #F5F5F5;
+  padding: 0 20px;
+  font-family: PoppinsLight;
+  color: #0B0C11;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.register__email form input:focus {
+  outline: none;
+}
+.register__email form button {
+  border: 1px solid #5DA8EF;
+  background: #5DA8EF;
+  color: white;
+  width: 50px;
+  cursor: pointer;
+}
+.register__email form button img {
+  vertical-align: middle;
+}
+
+.address {
+  width: 100%;
+  padding: 140px 0 0;
+  display: flex;
+}
+.address__left {
+  flex: 1 1 0;
+}
+.address__left img {
+  width: 100%;
+}
+.address__right {
+  flex: 1 1 0;
+}
+.address__title {
+  font-family: LeagueSpartanBold;
+  color: #0B0C11;
+  font-size: 9px;
+  padding: 105px 0 0 45px;
+  letter-spacing: 5px;
+}
+.address__content {
+  font-family: PlayfairDisplayBold;
+  color: #0B0C11;
+  font-size: 32px;
+  padding: 60px 0 0 90px;
+}
+.address__link {
+  font-family: LeagueSpartanBold;
+  font-size: 9px;
+  letter-spacing: 5px;
+  padding: 60px 0 0 45px;
+}
+.address__link a {
+  color: #5DA8EF;
+  cursor: pointer;
+  position: relative;
+}
+.address__link a:hover {
+  color: #0B0C11;
+}
+.address__link a:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  bottom: -10px;
+  height: 2px;
+  width: 121px;
+  background: #5DA8EF;
+  z-index: 2;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0 95px;
+}
+.footer__logo {
+  align-self: center;
+}
+.footer__navbar {
+  font-family: LeagueSpartanBold;
+  font-size: 9px;
+  color: #0B0C11;
+  align-self: center;
+  padding-top: 40px;
+}
+.footer__navbar ul {
+  display: flex;
+  flex-direction: row;
+}
+.footer__navbar ul li {
+  padding-right: 45px;
+  letter-spacing: 6px;
+  cursor: pointer;
+}
+.footer__navbar ul li:last-of-type {
+  padding-right: 0;
+}
+.footer__navbar ul li:hover {
+  color: #5DA8EF;
+}
+.footer__social {
+  padding-top: 40px;
+}
+.footer__social ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer__social ul li {
+  padding-right: 35px;
+}
+.footer__social ul li:last-of-type {
+  padding-right: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
